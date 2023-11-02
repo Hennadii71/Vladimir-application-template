@@ -3,8 +3,16 @@ ul {
   text-decoration: none;
 }
 
+button{
+  cursor: pointer;
+}
+
 .new-color{
     background-color: aquamarine;
+}
+
+.menu{
+  padding-bottom: 16px;
 }
 
 .heder{
@@ -26,4 +34,21 @@ ul {
     margin-left: 8px;
     font-size: 24px;
     text-align: center;
+}
+
+.txt{
+  font-size: 24px;
+}
+
+.elem{
+  width: 150px;
+  height: 150px;
+}
+
+.elem-red{
+  background-color: red;
+}
+
+.elem-green{
+  background-color: green;
 }
