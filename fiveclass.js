@@ -15,13 +15,15 @@ const fiveClassK1 = [
 
 const listResult = document.querySelector(".js-result-list");
 const btnFive = document.querySelector(".js-five");
+btnFive.disabled = false;
+
 const markup = fiveClassK1.map(({ result }) =>
   `<li><p>${result}</p></li>`
   ).join("");
 
 
 function addList(evt) {
-  
+  btnFive.disabled = true;
   listResult.insertAdjacentHTML("afterbegin", markup);
 }
 
